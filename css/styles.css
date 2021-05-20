@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rozsa {
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* navbar */
+
+.nav-brand {
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* heading */
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.gomb {
+    margin: 3rem 1rem 8rem 0;
+}
+
+#iphone {
+    transform: rotate(15deg);
+    margin-left: 25%;
+}
+
+/* features */
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+.barack {
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+/* press */
+
+#press img {
+    width: 15%;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    #tite {
+        text-align: center;
+    }
+    #title img {
+        transform: rotate(0);
+        margin-left: 0;
+    }
+    .gomb {
+        margin: 3rem 1rem 3rem 0;
+    }
+}
